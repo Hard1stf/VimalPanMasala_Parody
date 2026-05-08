@@ -1,0 +1,23 @@
+/* Global styles for the app root (complement to Tailwind in index.css) */
+:root {
+  --bg-start:#E7B043;
+  --bg-end:#FF3C00;
+  --card-container:#fff7ed;
+  --cards:#F7EFDB;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+/* Smooth scrolling already enabled in index.css; ensure a sensible default font smoothing */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Small helper if you want to apply the same background outside of Tailwind classes */
+.app-background {
+  background: linear-gradient(180deg, var(--bg-start) 65%, var(--bg-end) 100%);
+  min-height: 100vh;
+}
