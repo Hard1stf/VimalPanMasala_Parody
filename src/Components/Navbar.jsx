@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
     return(
         <>
-            <nav className="sticky top-0 right-0 z-50 max-w-7xl mx-auto p-4 flex justify-between item-center">
+            <nav className="sticky top-0 right-0 z-50 max-w-7xl mx-auto p-4 flex justify-between item-center backdrop-blur-xl rounded-2xl">
                 <Link to='/'>
                     <h1 className="text-2xl font-extrabold text-orange-600 tracking-tighter">Vimal</h1>
                 </Link>
