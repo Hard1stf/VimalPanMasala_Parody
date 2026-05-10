@@ -18,11 +18,11 @@ const Card = () => {
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, dicta.
                         </p>
                     </div>
-                    <div className="flex items-center gap-2">
-                        <button className="bg-orange-600 text-white px-4 py-2 rounded-lg hover:bg-orange-700 transition-all duration-300">
+                    <div className="group flex items-center gap-2 w-full sm:w-auto">
+                        <button className="w-full sm:w-auto bg-orange-600 text-white px-4 py-2 rounded-lg hover:bg-orange-700 transition-all duration-300">
                             Die Now
                         </button>
-                        <button className="bg-orange-50 text-orange-950 px-4 py-2 rounded-lg hover:bg-orange-50/50 transition-all duration-300">
+                        <button className="w-full sm:w-auto bg-orange-50 text-orange-950 px-4 py-2 rounded-lg hover:bg-orange-50/50 transition-all duration-300">
                             Die Later
                         </button>
                     </div>
