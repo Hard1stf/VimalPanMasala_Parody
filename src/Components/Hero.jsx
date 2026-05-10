@@ -17,7 +17,14 @@ const Hero = () => {
                 alt="Bolo Zubaan Canceri"
                 width={500}
                 height={500}
-                className="w-[80%] md:w-[100%] h-full object-contain sticky top-0 right-0"
+                className="hidden w-[80%] md:w-[100%] sm:block h-full object-contain sticky top-0 right-0"
+            />
+            <img 
+                src="../../public/hero-image1.png"
+                alt="Bolo Zubaan Canceri"
+                width={500}
+                height={500}
+                className="block w-[80%] md:w-[100%] sm:hidden h-full object-contain sticky top-0 right-0"
             />
             </section>
         </>
