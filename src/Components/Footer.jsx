@@ -15,7 +15,7 @@ const Footer = () => {
             cancer, that may arise from consumption.
           </p>
         </div>
-        <p className="text-sm text-orange-200">
+        <p className="text-sm text-orange-200 text-center">
           &copy; {new Date().getFullYear()} Bolo Zubaan Canceri. All rights
           reserved.
         </p>
