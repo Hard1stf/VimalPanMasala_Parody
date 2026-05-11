@@ -4,6 +4,7 @@ import Layout from './app/Layout';
 import Home from './pages/Home';
 import Products from './pages/Products';
 import Login from './pages/Login';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="products" element={<Products />} />
           <Route path="login" element={<Login />} />
+          <Route path="*" element={<NotFound/>} />
         </Route>
       </Routes>
     </BrowserRouter>
