@@ -3,7 +3,7 @@ import Card from './Card/Card';
 const Content = () => {
   return (
     <>
-      <div className="py-12 px-4 flex flex-col items-center justify-center mx-4 bg-orange-50 rounded-2xl shadow-md gap-12">
+      <div className="py-12 px-4 flex flex-col items-center justify-center mx-4 bg-orange-50 rounded-2xl shadow-md gap-12 rounded-t-none">
         <div className="flex flex-col items-center justify-center gap-2">
           <h2 className="text-2xl sm:text-4xl font-extrabold text-orange-950 tracking-tighter">
             Cancerous Products

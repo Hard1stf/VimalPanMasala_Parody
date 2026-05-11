@@ -8,7 +8,7 @@ const Hero = () => {
                 <h1 className="text-4xl sm:text-6xl text4xl font-extrabold text-orange-950 tracking-tighter">
                     Bolo Zubaan <span className="text-orange-500">Canceri</span>
                 </h1>
-                <p className="md:text-xl text-lg text-orange-950">
+                <p className="w-full md:text-xl text-lg text-orange-950 text-left sm:text-center">
                     More you eat, sooner you dies
                 </p>
             </div>
