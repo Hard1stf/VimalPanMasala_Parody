@@ -1,10 +1,13 @@
 // import React from 'react';
 import './globals.css';
+import NavBar from '../Components/Navbar';
+import { Outlet } from 'react-router-dom';
 
-const Layout = ({ children }) => {
+const Layout = () => {
   return (
-    <div className="min-h-screen app-background flex flex-col">
-      {children}
+    <div className="min-h-screen app-background">
+      <NavBar />
+      <Outlet /> {/* This placeholder active Child routes are render here.*/}
     </div>
   );
 };
